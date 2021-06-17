@@ -1,0 +1,193 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: Montserrat;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Title Section */
+
+#title{
+  /* background-color: #ff4c68; */
+  background-color: #0C4271;
+  color: #fff;
+  stext-align: left;
+}
+
+.title-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* Features Section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-heading{
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+.fbox{
+  padding: 3%;
+}
+
+.ficon{
+  /* color: #ef8172; */
+  color: #0A81AB;
+  margin-bottom: 3%;
+}
+
+.ficon:hover{
+  /* color: #ff4c68; */
+  color: #0C4271;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  /* background-color: #ef8172; */
+  background-color: #0A81AB;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#press{
+  /* background-color: #ef8172; */
+  background-color: #0A81AB;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 50px 20px 20px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-h2{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-heading-h3{
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+  padding: 7% 15%;
+  /* background-color: #ff4c68; */
+  background-color: #0C4271;
+  color: #fff;
+}
+
+.cta-h3{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+}
+
+.arrow{
+  color: black;
+}
+
+.arrow:hover{
+  /* color: #ff4c68; */
+  color: #0C4271;
+}
+
+.footer-icon{
+  margin: 20px 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1040px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
